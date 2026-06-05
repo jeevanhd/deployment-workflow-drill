@@ -1,0 +1,23 @@
+name: Deploy Checkout Service
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy checkout service
+        run: |
+          echo "Starting deployment to production"
+          echo "Release ID: ${GITHUB_SHA}"
+          echo "Operating with default deployment flow"
+          echo "No validation gate or approval step is configured"
+          echo "Deploying service..."
+          sleep 5
+          echo "Deployment complete"
