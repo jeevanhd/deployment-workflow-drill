@@ -71,20 +71,20 @@ Identify at least five deployment-process weaknesses.
 
 For each weakness:
 
-* Describe the issue
-* Explain the operational risk
-* Explain the potential release impact
-* Recommend a control that would reduce the risk
+- Describe the issue
+- Explain the operational risk
+- Explain the potential release impact
+- Recommend a control that would reduce the risk
 
 Examples include:
 
-* Missing approval stages
-* No rollback preparation
-* Missing validation checks
-* No release ownership
-* No health verification
-* No deployment visibility
-* No release freeze process
+- Missing approval stages
+- No rollback preparation
+- Missing validation checks
+- No release ownership
+- No health verification
+- No deployment visibility
+- No release freeze process
 
 General statements do not count.
 
@@ -108,41 +108,41 @@ Your workflow must include:
 
 Define:
 
-* What gets validated
-* Who owns validation
-* What blocks release progression
+- What gets validated
+- Who owns validation
+- What blocks release progression
 
 ### Release Approval Stage
 
 Define:
 
-* Who approves
-* Approval criteria
-* Escalation process
+- Who approves
+- Approval criteria
+- Escalation process
 
 ### Deployment Execution Stage
 
 Define:
 
-* Deployment sequence
-* Release ownership
-* Production release procedure
+- Deployment sequence
+- Release ownership
+- Production release procedure
 
 ### Health Verification Stage
 
 Define:
 
-* Verification checks
-* Success criteria
-* Monitoring requirements
+- Verification checks
+- Success criteria
+- Monitoring requirements
 
 ### Recovery Stage
 
 Define:
 
-* Failure handling process
-* Rollback trigger conditions
-* Incident ownership
+- Failure handling process
+- Rollback trigger conditions
+- Incident ownership
 
 Represent the release movement clearly.
 
@@ -160,20 +160,20 @@ Define at least five release gates.
 
 For each gate document:
 
-* Gate name
-* Purpose
-* Validation criteria
-* Failure consequence
-* Responsible owner
+- Gate name
+- Purpose
+- Validation criteria
+- Failure consequence
+- Responsible owner
 
 Example categories:
 
-* Build Success Gate
-* Test Coverage Gate
-* Security Scan Gate
-* Approval Gate
-* Production Readiness Gate
-* Health Verification Gate
+- Build Success Gate
+- Test Coverage Gate
+- Security Scan Gate
+- Approval Gate
+- Production Readiness Gate
+- Health Verification Gate
 
 Explain why bypassing each gate creates risk.
 
@@ -191,27 +191,27 @@ Document:
 
 ### Immediate Rollback Procedure
 
-* Trigger conditions
-* First actions
-* Decision owner
+- Trigger conditions
+- First actions
+- Decision owner
 
 ### Partial Failure Procedure
 
-* Detection method
-* Containment strategy
-* Recovery path
+- Detection method
+- Containment strategy
+- Recovery path
 
 ### Full Deployment Failure Procedure
 
-* Escalation process
-* Communication steps
-* Recovery workflow
+- Escalation process
+- Communication steps
+- Recovery workflow
 
 For each scenario explain:
 
-* What happened
-* How engineers respond
-* How service is restored
+- What happened
+- How engineers respond
+- How service is restored
 
 ---
 
@@ -250,10 +250,10 @@ Rollback Trigger
 
 The diagram must clearly show:
 
-* Release movement
-* Approval points
-* Validation checkpoints
-* Recovery paths
+- Release movement
+- Approval points
+- Validation checkpoints
+- Recovery paths
 
 ---
 
@@ -271,10 +271,10 @@ https://github.com/YOUR-USERNAME/deployment-workflow-drill/pull/12
 
 Requirements:
 
-* PR must be public
-* PR must remain open
-* All required files must exist
-* Work must be completed on feature/deployment-workflow
+- PR must be public
+- PR must remain open
+- All required files must exist
+- Work must be completed on feature/deployment-workflow
 
 ---
 
@@ -284,11 +284,11 @@ Record a 3–5 minute walkthrough.
 
 Explain:
 
-* Deployment weaknesses identified
-* Why the workflow was redesigned
-* Release gates introduced
-* Recovery strategy
-* Most important operational safeguard added
+- Deployment weaknesses identified
+- Why the workflow was redesigned
+- Release gates introduced
+- Recovery strategy
+- Most important operational safeguard added
 
 Upload to Google Drive.
 
@@ -299,3 +299,7 @@ Anyone with the link can view
 ```
 
 Verify accessibility before submission.
+
+# Relese Notes
+
+this is a release
